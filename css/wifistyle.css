@@ -1,0 +1,67 @@
+
+/*登录成功*/
+.page-wifi-sulogin article,.page-wifi-sulogin article>img,.page-wifi-sulogin article>figure,.page-wifi-sulogin body>p>img{ width: 100%;}
+.page-wifi-sulogin article>figure>img{ width:50%; }
+.page-wifi-sulogin article>figure{ text-align: center;margin:35px auto 46px; width: 80%;}
+.page-wifi-sulogin article>figure h1{ font-size: 28px; margin: 10px 5px;}
+.page-wifi-sulogin article{margin:30px 0;}
+.page-wifi-sulogin article>figure p{ font-size: 1.05em;}
+.page-wifi-sulogin body>p{ margin-bottom: 0; padding: 0;}
+
+
+/*wifi登录*/
+.page-wifi-login article>img{ width: 44%; margin: 80px 26% 5px;}
+.page-wifi-login .mui-table-view-cell>span>img,footer .line,.page-wifi-login footer .div figure,.page-wifi-memre header>img{float:left;}
+.page-wifi-login .mui-table-view-cell>span>img{ width: 24px; }
+.page-wifi-login .mui-table-view-cell>input{  width: 70%; border: none; margin-bottom: 0;}
+.page-wifi-login .mui-table-view-cell>button{ float:right; color:#18AA7A; border:#18AA7A solid 1px;}
+.page-wifi-login .mui-card{ padding:2px 0px;}
+.page-wifi-login .mui-table-view-cell>button:enabled:active,.page-wifi-login form>div>a{ background:#18AA7A;}
+.page-wifi-login form>div>a{ margin: 10px 15px 40px 15px; width: auto; border: none;}
+.page-wifi-login form>div>a:active,.page-wifi-login footer .div figcaption,.page-wifi-memre header>img+h1,.page-wifi-memre .mui-input-group label{ color:#18AA7A;}
+.page-wifi-login form+p>img{width: 100%;}
+
+
+.page-wifi-login footer{ margin-top:20px;}
+.page-wifi-login footer .line{ width:40%; padding-top:10px;}
+.page-wifi-login footer .div{ margin:4% 12px 0;}
+.page-wifi-login footer .div figure{ margin: 0;}
+.page-wifi-login footer .div figure,.page-wifi-login footer .div figure a{position: relative;}
+.page-wifi-login footer .div figcaption{font-size: 0.965em; text-align:center; margin-top:-30px; letter-spacing:1px; margin-bottom:20%;}
+.page-wifi-login footer .div figure a>img{ width: 126px;}
+
+
+
+/*wifi会员注册*/
+
+.page-wifi-memre .mui-input-group label{ width: 35%;}
+.page-wifi-memre .mui-input-group label>em{ margin: 0 2px 0 0;}
+.page-wifi-memre .mui-input-group>.mui-input-row>input{ width: 65%;}
+.page-wifi-memre header{ width: 70%; margin:30px auto 0;}
+.page-wifi-memre header>img{width:120px; }
+.page-wifi-memre header>img+h1{ font-size:24px; padding: 10px 0 0 0;float: right; }
+
+
+
+/*注意事项*/
+#attIndex,#attIndex figure{ position:relative;}
+#attIndex div{width:90%; margin:15% auto 0;}
+#attIndex figure>img{ width:100%;}
+#attIndex figure+img{ width:43%; margin:2% 0 0 5%;}
+body>.img_po{width:12%;}
+body>.img_po,#attIndex figure>figcaption{position:absolute; }
+#attIndex figure>figcaption{ width:80%;top:25%; left:10%;line-height:1.5em; text-indent:1.2em;}
+
+
+@media screen and (min-width: 321px) and (max-width: 640px) {
+	#attIndex figure>figcaption{font-size:1.05em;}
+	
+}
+
+@media screen and (min-width:641px) and (max-width: 900px){
+	#attIndex figure>figcaption{ font-size:1.65em;}
+	}
+	
+@media screen and (min-width:901px){
+	#attIndex figure>figcaption{ font-size:2em;}
+	}
